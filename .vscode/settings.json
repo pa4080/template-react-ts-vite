@@ -1,0 +1,84 @@
+{
+  "cSpell.words": [
+    "atmosphering",
+    "Avenir",
+    "Codacy",
+    "daisyui",
+    "dompurify",
+    "Hackintosh",
+    "headlessui",
+    "heroicons",
+    "homeworld",
+    "hyperdrive",
+    "infobox",
+    "Kenobi",
+    "MGLT",
+    "opensearch",
+    "predeploy",
+    "Roboto",
+    "Skywalker",
+    "Srch",
+    "Starjedi",
+    "Starjout",
+    "starships",
+    "starwars",
+    "SWAPI",
+    "tailwindcss",
+    "thumbimage",
+    "todos",
+    "usehooks",
+    "wookieepedia"
+  ],
+  "spellright.language": ["en-US-10-1.", "en-US-9-0."],
+  "markdownlint.config": {
+    "MD033": false
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    ".git/**/*": "plaintext"
+  },
+
+  "typescript.validate.enable": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.tsserver.maxTsServerMemory": 6144,
+
+  "npm-intellisense.importQuotes": "\"",
+  "npm-intellisense.importLinebreak": "auto",
+
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+
+  "reactSnippets.settings.prettierEnabled": true,
+  "reactSnippets.settings.importReactOnTop": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "jspm_packages": true,
+    "node_modules": true
+  },
+
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "files.insertFinalNewline": true
+}
