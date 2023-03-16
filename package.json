@@ -1,13 +1,13 @@
 {
   "name": "template-react-ts-vite",
-  "homepage": "https://github.metalevel.tech/template-react-ts-vite",
+  "homepage": "https://github.metalevel.tech/template-react-ts-vite/",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "start": "vite --host 0.0.0.0 --port 3000",
     "dev": "vite",
-    "build": "tsc && vite build --base=/",
+    "build": "tsc && vite build --base=./",
     "preview": "vite preview",
     "predeploy": "npm run build && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist"
